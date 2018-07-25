@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="314dp"
+        android:layout_height="151dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/icecream"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/natural_ice_cream_n_kalina"
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="315dp"
+    android:layout_height="71dp"
+    android:layout_alignBottom="@+id/textView5"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:text="Desserts • ₹\n\n🕘25-30 MIN   4.6★ (200+)" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="0dp"
+        android:text="@string/textview4"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="227dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="121dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="15dp"
+        android:text="Location and hours"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="66dp"
+        android:orientation="horizontal"
+        android:showDividers="end">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="307dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/search"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="155dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginEnd="1dp"
+        android:text="View Info >"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+
+</RelativeLayout>

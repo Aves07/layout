@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">sample</string>
+    <string name="nav_home">Near you</string>
+    <string name="nav_search" />
+    <string name="nav_search1">Search</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_srch">Search</string>
+    <string name="nav_acc">Account</string>
+    <string name="natural_ice_cream_n_kalina">Natural Ice Cream\nKalina</string>
+    <string name="restaurant">410 Restaurants</string>
+    <string name="textview4">Buy One Get One Free\n(Scoop)</string>
+    <string-array name="data">
+        <item><b>Makrand Shahnivas</b></item>
+    </string-array>
+    <string-array name="data1">
+        <item>relevance</item>
+    </string-array>
+    <string-array name="data2">
+        <item>Buy One Get One FREE (Scoops)</item>
+    </string-array>
+
+    <string-array name="title">
+        <item><b>Burger King</b></item>
+        <item><b>Mcdonald's</b></item>
+        <item>elco</item>
+    </string-array>
+    <string-array name="description">
+        <item>american fast food,\n2 outlets near you\n% 2  burger at rps 100</item>
+        <item>fast food\n2 outlets near you</item>
+        <item>street food,chinese,sout indian</item>
+    </string-array>
+    <string-array name="rating">
+        <item>
+            ★4.3  .  33 mins  .  ₹350 for two
+        </item>
+
+        <item>
+            ★4.3  .  33 mins  .  ₹500 for two
+        </item>
+
+        <item>
+            ★4.3  .  31 mins  .  ₹400 for two
+        </item>
+    </string-array>
+</resources>
